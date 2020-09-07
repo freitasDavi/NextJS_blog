@@ -6,7 +6,8 @@ import utilStyles from '../styles/utils.module.css'
 const name = "Davi Freitas da Silva"
 export const siteTitle = "Davi Freitas - Blog"
 
-function Layout({ children, home }) {
+function Layout({ children, home }: {children: React.ReactNode
+    home?: boolean }) {
     return (
         <div className={styles.container}>
             <Head>
